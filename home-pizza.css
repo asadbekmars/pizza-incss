@@ -1,0 +1,399 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+section{
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+.pizza-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.pizza-home{
+    width: 411px;
+    height: 731px;
+    background: linear-gradient(165.12deg, #FF1F3C 20.66%, #F8828F 89.74%);
+    position: relative;
+    overflow: hidden;
+}
+
+.pizza-home .logo{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate( -50%, -50%);
+}
+.pizza-home .pizza-div{
+    width: 355px;
+    height: 355px;
+    position: absolute;
+    bottom: -70px;
+    right:-40px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    overflow: hidden;
+}
+
+.pizza-home .pizza-div img{
+    width: 610px;
+    position: absolute;
+    top:-10px;
+    left: -125px;
+}
+
+
+
+
+
+
+/* IKKINCHI page */
+.menu-in{
+    display: flex;
+    justify-content: space-between;
+    padding:37px 10px 0 0;
+    position: relative;
+}
+
+/* .menu-in .profile{
+    position: absolute;
+    left:-20px;
+    
+}
+.menu-in .avatar{
+    right: 10px;
+    position: absolute;
+  
+} */
+
+.choose{
+    padding: 40px 0 14px 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #090A0A;
+}
+
+.choose h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* BURGER menu */
+.big-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    position: absolute;
+    right: -55px;
+}
+
+.big-box .eats{
+    width: 120px;
+    height: 80px;
+    background: #FFF6F5;
+    border: 1.5px solid #C4C4C4;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    text-decoration-line: underline;
+    color: #999999;
+    text-align: center;
+    padding: 17px 30px 6px 30px;
+    filter: drop-shadow(0px 4px 8px #C4C4C4);
+}
+
+.big-box .eats.red{
+    filter: drop-shadow(0px 4px 8px rgba(247, 27, 51, 0.2));
+    border: 1.5px solid #F71B33;
+    color: #F71B33;
+}
+
+
+
+
+
+
+/* BIG BURGER */
+.big-burger{
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+    gap: 20px;
+}
+
+.big-burger .red-burger{
+    width: 204px;
+    height: 252px;
+    background: #F71B33;
+    box-shadow: 0px 10px 20px rgba(58, 41, 106, 0.2);
+    border-radius: 32px;
+    padding-left: 26px;
+    position: relative;
+}
+
+.big-burger .red-burger .burger{
+    position:absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.red-burger .name-burger{
+    padding-top: 160px;
+}
+
+.big-burger .red-burger .name-burger h3{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;   
+}
+
+.red-burger .name-burger h2{
+    text-align: start;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.white-burger{
+    width: 185.38px;
+    height: 229px;
+    background: #FFF6F5;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba(58, 41, 106, 0.2);
+    border-radius: 32px; 
+    padding-left: 26px;
+    position: relative;
+}
+
+
+.white-burger .burger{
+    position:absolute;
+    top: -5px;
+    right: 30px;
+}
+
+.white-burger .name-burger{
+    padding-top: 140px;
+}
+
+.white-burger h3{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    color: #999999;
+}
+
+.white-burger .name-burger h2{
+    text-align: start;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    color: #999999;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+/* uchinchi PAGE */
+.sign-in{
+    width: 411px;
+    height: 731px;
+    background-color: rgb(255, 255, 255);
+    padding: 16px 42px 50px 42px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.sign-in .head-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in .head-icon h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #090A0A;
+    display: flex;
+    align-items: center;
+}
+
+.sign-in .login{
+    display: flex;
+    justify-content: center;
+    padding:37px 0 31px 0;
+    position: relative;
+}
+
+.sign-in .login h1{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #090A0A;
+}
+
+.sign-in .login img{
+    position: absolute;
+    left: -5px;
+}
+
+
+
+/* INPUT */
+.sign-in input{
+    display: block;
+    width: 327px;
+    height: 56px;
+    background: #FFF6F5;
+    border-radius: 10px;
+    border:none;
+    margin: 16px 0;
+    padding:20px 0 20px 20px;
+}
+
+.sign-in input::placeholder{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    color: #1C2439;
+    padding:20px 0 20px 20px;
+}
+
+.sign-in a{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 180%;
+    color: #EA4335;
+    text-decoration: none;
+}
+
+.sign-in a:hover{
+    transition: 0.2s;
+    filter: drop-shadow(0px 4px 8px #EA4335);
+}
+
+/* LOGIN BTN */
+.sign-in .login-btn{
+    width: 327px;
+    height: 56px;
+    background: #F71B33;
+    box-shadow: 0px 10px 20px rgba(58, 41, 106, 0.2);
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    line-height: 180%;
+    color: #FFFFFF;
+    margin: 40px 0 25px 0;
+}
+
+.sign-in .login-btn:hover{
+    transition: 0.2s;
+    filter: drop-shadow(0px 4px 8px #F71B33);
+}
+
+
+
+
+
+
+
+
+/* Tortinchi page */
+.sign-in .login-btn-2{
+    width: 327px;
+    height: 56px;
+    background: #F71B33;
+    box-shadow: 0px 10px 20px rgba(58, 41, 106, 0.2);
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    line-height: 180%;
+    color: #FFFFFF;
+    margin: 25px 0 25px 0;
+}
+
+.sign-in .login-btn-2:hover{
+    transition: 0.2s;
+    filter: drop-shadow(0px 4px 8px #F71B33);
+}
+
+
+.sign-in h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+    color: #4C5673;
+}
+
+/* line */
+.sign-in span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:32px 0 40px 0;
+    font-weight: 600;
+}
+.sign-in span .line{
+    width: 150px;
+    height: 0;
+    border: 1px solid #DEDEDE;
+    
+}
+
+.sign-in .google-btn{
+    width: 327px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    border-radius: 8px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    justify-content: center;
+    position: relative;
+}
+
+.sign-in .google-btn img{
+    position: absolute;
+    left: 18px;
+}
+
